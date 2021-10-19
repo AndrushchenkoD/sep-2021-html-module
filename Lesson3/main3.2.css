@@ -1,0 +1,46 @@
+.osnova{
+    background: yellowgreen;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.Header{
+    width: 384px;
+    height: 125px;
+    background: red;
+}
+.Content{
+    width: 384px;
+    height: 350px;
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+}
+.Menu{
+    width: 100px;
+    height: 350px;
+    background: blueviolet;
+}
+.Posts{
+    width: 284px;
+    height: 350px;
+    background: brown;
+    display: flex;
+    flex-direction: column;
+}
+.Post1{
+    width: 280px;
+    height: 170px;
+    background: darkblue;
+}
+.Post2{
+    width: 280px;
+    height: 170px;
+    background: darkgreen;
+}
+.Footer{
+    width: 384px;
+    height: 125px;
+    background: red;
+}
