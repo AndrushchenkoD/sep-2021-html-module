@@ -1,29 +1,29 @@
-.xxx{
-    width: 1200px;
-    height: 620px;
-    background: yellowgreen;
-    display: flex;
-    flex-wrap:wrap;
+body,html{
+    margin: 0;
 }
-.a{
-    margin: 8px;
-    width: 1200px;
-    height: 200px;
-    background: red;
-
-
-}
-
-.b{
-    width: 760px;
-    height: 380px;
-    background: aqua;
-    margin: 8px;
-}
-.c{
-    width: 392px;
-    height: 380px;
+.Osnova {
     background: black;
-    margin: 8px;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    row-gap: 10px;
+}
+.A{
+    flex-grow: 1;
+    background: blue;
+}
+.Content{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.B{flex-grow: 4;
+    background: blue;
+
+}
+.C{flex-grow:1;
+    background: blue;
 
 }
