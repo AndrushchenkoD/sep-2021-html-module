@@ -10,34 +10,22 @@ body,html{
     margin: 5px;
 }
 .widgets{
-    height: 200px;
+    flex-grow: 1;
     background: blue;
 }
 .size{
-    width: 780px;
-    height: 200px;
+    flex-grow: 1;
     background: black;
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
+    column-gap: 10px;
     justify-content: space-around;
 }
 .contact{
-    height: 500px;
+    flex-grow: 2;
     background: blue;
 }
-.bigwidges{
-    width: 220px;
-    height: 200px;
-    background: blue;
-}
-.biggerwidges{
-    width: 220px;
-    height: 200px;
-    background: blue;
-}
-.hugewidges{
-    width: 220px;
-    height: 200px;
+.huge{
+    flex-grow: 1;
     background: blue;
 }
