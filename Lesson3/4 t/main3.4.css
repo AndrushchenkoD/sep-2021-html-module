@@ -1,0 +1,35 @@
+body,html{
+    margin: 0;
+}
+.Osnova{
+    height: 98vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.Header{
+    height: 125px;
+    background: silver;
+}
+.Nav{
+    height: 100px;
+    background: gray;
+}
+.Content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+.Main{
+    flex-grow: 4;
+    background: cadetblue;
+}
+.Aside{
+    flex-grow: 1;
+    background: cornflowerblue;
+}
+.Footer{
+    height: 125px;
+    background: silver ;
+}
