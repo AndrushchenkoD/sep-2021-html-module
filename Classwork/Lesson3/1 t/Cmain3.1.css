@@ -1,0 +1,45 @@
+body,html{
+    margin: 0;
+}
+.Osnova {
+    background: black;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    row-gap: 10px;
+}
+.A{
+    flex-grow: 1;
+    background: blue;
+}
+.Content{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.block2{flex-grow: 3;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+.F{flex-grow:1;
+    background: blue;}
+.B{
+    flex-grow: 1;
+    background: blue;
+}
+.block3{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    background: black;
+}
+.C{flex-grow: 1;
+    background: blue;
+
+}
