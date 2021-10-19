@@ -1,0 +1,34 @@
+body,html{
+    margin: 0;
+}
+.Osnova {
+    background: black;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    row-gap: 10px;
+}
+.block1{flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.block2{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.home{
+    flex-grow: 1;
+    background: blue;
+}
+.Kabobs{
+    flex-grow: 1;
+    background: blue;
+}
+.K{
+    flex-grow: 1;
+    background: blue;
+}
