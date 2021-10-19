@@ -1,0 +1,38 @@
+.osnova{
+    background: black;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    row-gap: 10px;
+}
+.Header{
+    height: 70px;
+    background: green;
+}
+.Content{
+    flex-grow: 1;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.Menu{
+    flex-grow: 1;
+    background: blueviolet;
+}
+.Posts{
+    flex-grow: 3;
+    row-gap: 10px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+.Post{
+    flex-grow: 1;
+    background: blue;
+}
+.Footer{
+    height: 100px;
+    background: green;
+}
