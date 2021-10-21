@@ -17,18 +17,18 @@
     flex-direction: row;
     column-gap: 10px;
 }
-.Menu{
+.Content--Menu{
     flex-grow: 1;
     background: blueviolet;
 }
-.Posts{
+.Content--Posts{
     flex-grow: 3;
     row-gap: 10px;
     background: black;
     display: flex;
     flex-direction: column;
 }
-.Post{
+.Content--Posts--Post{
     flex-grow: 1;
     background: blue;
 }

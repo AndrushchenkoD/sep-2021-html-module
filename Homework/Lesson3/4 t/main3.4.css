@@ -4,32 +4,36 @@ body,html{
 .Osnova{
     height: 98vh;
     background: black;
-    display: flex;
     flex-direction: column;
     margin: 5px;
 }
-.Header{
-    height: 125px;
-    background: silver;
-}
-.Nav{
-    height: 100px;
-    background: gray;
-}
 .Content{
-    flex-grow: 1;
-    display: flex;
     flex-direction: row;
 }
-.Main{
-    flex-grow: 4;
-    background: cadetblue;
+.bgsilver{
+    background: silver;
 }
-.Aside{
-    flex-grow: 1;
+.bgcfb{
     background: cornflowerblue;
 }
-.Footer{
+.bgcb{
+    background: cadetblue;
+}
+.bggrey{
+    background: gray;
+}
+.flexg1{
+    flex-grow: 1;
+}
+.flexg4{
+    flex-grow: 4;
+}
+.height125{
     height: 125px;
-    background: silver ;
+}
+.height100{
+    height: 100px;
+}
+.d_flex{
+    display: flex;
 }

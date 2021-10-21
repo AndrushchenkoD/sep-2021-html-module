@@ -2,7 +2,6 @@ body,html{
     margin: 0;
 }
 .Osnova {
-    background: black;
     height: 98vh;
     display: flex;
     flex-direction: column;
@@ -22,13 +21,19 @@ body,html{
 }
 .home{
     flex-grow: 1;
-    background: blue;
 }
 .Kabobs{
     flex-grow: 1;
-    background: blue;
 }
 .K{
     flex-grow: 1;
+}
+.bgblack{
+    background: black;
+}
+.bgblue{
+    background: blue;
+}
+.block2 div{
     background: blue;
 }
