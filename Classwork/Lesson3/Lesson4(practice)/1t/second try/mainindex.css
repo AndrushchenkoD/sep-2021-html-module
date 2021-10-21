@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+}
+.father {
+    height: 98vh;
+    margin: 5px;
+    display: flex;
+    background: black;
+    flex-direction: column;
+}
+.top{
+ background: white;
+    flex-grow: 1;
+    display: flex;
+}
+.bottom{
+    background: blue;
+    flex-grow: 1;
+}
+.top2{
+    margin-left: 80px;
+    margin-bottom: 5px;
+    margin-right: 80px;
+    margin-top: 5px;
+    border-radius: 40px;
+    border: #6d92de 5px solid;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    flex-grow: 1;
+}
+.squares{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    justify-content: space-around;
+}
+.decs{
+    flex-grow: 1;
+}
+.square{
+    background: #12125b;
+    border-radius: 20px;
+    width: auto;
+flex-grow: 1;
+}
