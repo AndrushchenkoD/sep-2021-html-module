@@ -1,0 +1,232 @@
+body, html {margin: 0;}
+
+.height50{height: 50px;}
+.height100{ height: 100px;}
+.height400{ height: 500px;}
+.height1200{ height: 1400px;}
+.height20{height: 20px}
+.height100p{ height: 100%}
+.height90p{ height: 90%}
+.height80p{height:80%;}
+
+.width100{ width: 100%;}
+.width90{ width: 90%;}
+.width80{width: 80%;}
+
+.margin{margin: 25px}
+
+.bgblue{background: #3ac6ea;}
+.bggray{background: #CED8DF;}
+.bgdarkblue{background: #102b3e;}
+.clblue{color: #3ac6ea;}
+.clgray{color: #CED8DF;}
+.cldarkblue{color: #102b3e;}
+
+
+
+
+.d_flex{display: flex;}
+.spaceeven{justify-content: space-around;}
+.flex_center{justify-content: center;align-items: center;}
+.jcenter{justify-content: center;}
+.f_wrap{flex-wrap: wrap;}
+.fdircol{flex-direction: column;}
+.fdirrow{flex-direction: row;}
+.f_grow1{flex-grow: 1;}
+.f_grow4{flex-grow: 4;}
+
+.Back{
+    flex-direction: column;
+}
+
+.ablock{
+    flex-direction: row;
+    column-gap: 5px;
+    justify-content: end;
+    align-items: center;
+}
+
+.ablockbutton{
+    height: 5px;
+    width: 25px;
+}
+
+.Button{
+    align-self: center;
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+}
+.bblock2{
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: end;
+    align-items: center;
+
+}
+.bblockbutton{
+    height: 8px;
+    width: 40px;
+
+}
+.bblockbutton a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: color .5s;
+    color: #102b3e;
+    font-weight: 900;
+}
+.bblockbutton a:hover{color: #fff;}
+.cblock{
+    flex-direction: column;
+    row-gap: 5px;
+    width: 570px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.dblock{
+    border: 5px solid #9abcc8;
+    border-radius: 30px;
+    flex-direction: column;
+}
+.delements{
+    flex-direction: row;
+    column-gap: 30px;
+}
+.delement{
+    flex-direction: column;
+    row-gap: 20px;
+}
+.delement1{
+    height: 200px;
+    width: 100%;
+}
+
+.eblock{
+    flex-direction: row;
+}
+.eelement{
+    justify-content: space-around;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.eelement1{
+    margin: 10px 25px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.eelement2{
+    color: #CED8DF;
+    justify-content: center;
+}
+.eborder{
+    border: solid 5px #9abcc8;
+    border-radius: 20px;
+}
+.fblock{
+    flex-direction: column;
+    row-gap: 50px;
+}
+.fgalinfo{
+    flex-direction: column;
+    height: 1300px;
+}
+.info{
+    flex-direction: row;
+    height: 400px;
+}
+.infoblockw{
+    flex-direction: column;
+}
+.gblock{
+    flex-direction: column;
+    row-gap: 20px;
+}
+.gsquares{
+    flex-direction: row;
+    column-gap: 20px;
+}
+.gsquare{
+    width: 30px;
+    height: 30px;
+}
+.gline{
+    width: 30%;
+    height: 5px;
+}
+.Mainsquare{
+    border-radius: 10px;
+}
+.galery{
+    height: 810px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.fgalblocks{
+
+    flex-direction: row;
+    column-gap: 10px;
+}
+.fgalblock{
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    border-radius: 30px;
+    border: solid 5px #9abcc8;
+}
+.topgal{
+    width: 100%;
+    height: 90%;
+    flex-direction: column;
+}
+.footgal {
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    border-top: 3px solid #9abcc8;
+}
+.fbuton{
+    height: 60%;
+    width: 20%;
+    margin-left: 5%;
+    cursor: pointer;
+    border-radius: 20px;
+ align-self: center;
+}
+.cbutton {
+     align-self: center;
+     height: 50px;
+     width: 300px;
+     border-radius: 30px;
+     color: #fff;
+     margin-top: 25px;
+     text-align: center;
+     cursor: pointer;
+ }
+.fsquares{
+    width: 100%;
+    flex-direction: row;
+    column-gap: 5px;
+    height: 60%;
+    margin-right: 5%;
+    align-self: center;
+    justify-content: end;
+}
+.fsquare{
+    height: 100%;
+    width: 25px;
+    border-radius: 10px;
+}
+.img{
+    margin-top: 20px;
+    align-self: center;
+    height: 40%;
+    width: 90%;
+    border-radius: 30px;
+}
+.tik{text-align: end;}
+.lorem30{margin-top: 15px;}
